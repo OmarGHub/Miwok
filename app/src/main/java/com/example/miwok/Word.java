@@ -27,6 +27,9 @@ public class Word {
     /** Miwok translation for the word */
     private String mMiwokTranslation;
 
+    /** Image for the word */
+    private int mImageResourceId;
+
     /**
      * Create a new Word object.
      *
@@ -50,5 +53,13 @@ public class Word {
      * Get the Miwok translation of the word.
      */
     public String getMiwokTranslation() { return mMiwokTranslation; }
+
+
+    /**
+     * Get the image of the word.
+     */
+    public int getImageResourceId() { return mImageResourceId; }
+
+
 
 }
